@@ -195,7 +195,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">少年他的奇幻漂流</p>
       
   </div>
 
@@ -223,6 +223,18 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -578,7 +590,7 @@
       if (hash != '/') {
         
 
-        var reg = /(?:\/page(\d+))/;
+        var reg = /(?:\/page(\d+)\/)/;
         var res = reg.exec(hash);
 
         if (res && res[1])
@@ -603,7 +615,7 @@
                           current: current,
                           total: total,
                           base: base,
-                          format: "/page%d",
+                          format: "/page%d/",
                           mid_size: 1,
                           end_size: 1
                         });
