@@ -4,17 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-# <<<<<<< HEAD
-title: NexT
-subtitle:
-description:
-author: John Doe
-=======
 title: 棉毛裤穿吗
 subtitle: 现在就是永远
 description: 我好帅
 author: 棉毛裤穿吗
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -27,18 +20,6 @@ permalink: pretty
 
 # Pagination
 paginate: 10
-<<<<<<< HEAD
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-=======
 paginate_path: "/page:num/"
 archive:
   paginate: 10
@@ -49,7 +30,6 @@ category:
 tag:
   paginate: 10
   paginate_path: "/page:num/"
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
@@ -107,11 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-<<<<<<< HEAD
-#since: 2015
-=======
 since: 2021
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
 
 # icon between year and author @Footer
 authoricon: heart
@@ -142,11 +118,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-<<<<<<< HEAD
-  #categories: /categories/
-=======
   categories: /categories/
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
   about: /about/
   archives: /archives/
   tags: /tags/
@@ -237,20 +209,11 @@ font:
 # Sidebar Settings
 # ---------------------------------------------------------------
 
-
-<<<<<<< HEAD
-# Social Links
-# Key is the link label showing to end users.
-# Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
-=======
-Social Links
+Social Links:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   GitHub: https://github.com/angelaaaadaddy
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
 
 
 # Social Links Icons
@@ -269,11 +232,8 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-<<<<<<< HEAD
-#avatar:
-=======
+
 avatar: pic/1111.jpeg
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
 
 
 # Table Of Contents in the Sidebar
@@ -421,11 +381,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-<<<<<<< HEAD
-  shortname:
-=======
   shortname: 天才
->>>>>>> a0c6a2a70e101dd05341eec7e5cbdd7ac2d996a3
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
