@@ -3,9 +3,6 @@ layout: page
 type: about
 ---
 
-<<<<<<< HEAD
-Building...
-=======
 所以也拥有了自己的。
 
 一时间快乐的不知道要写啥。
