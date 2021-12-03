@@ -1,6 +1,6 @@
 ---
 title: Woodstock(来自陈信宏大诗人的翻译)
-description: People life ocean wild
+description: 但你会学到 生命本是一场跌撞意外
 categories:
  - Mayday
 tags: Mayday
