@@ -1,4 +1,16 @@
 ---
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 title: 虚数与欧拉公式的其中一些
 description: Happy boss‘s day
 categories:
@@ -9,8 +21,6 @@ tags: Daily
 由傅立叶引发的血案 :skier:
 
 我刚知道 原来 虚数 (imaginary number 想象的数?) 还有很多的扩展。
-
-$ a $
 
 首先 上过初中的兄弟们都知道 $i^2= -1$ 也就是这个想象的数其实一开始是用来表示-1开根号的
 
